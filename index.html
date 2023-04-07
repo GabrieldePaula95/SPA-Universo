@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>O Universo</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <style type="text/css">
+        :root {
+            font-size: 62.5%;
+        }
+
+        nav {
+            position: absolute;
+            left: 7.2rem;
+            top: 4.0rem;
+            display: flex;
+            gap: 4.2rem;
+            
+
+            min-width: 48.9rem;
+        }
+
+        a {
+            font-family:'Roboto', sans-serif; 
+            color: #FFF;
+            text-decoration: none;
+
+            margin: 50px auto;
+
+            font-weight: 400;
+            font-size: 2.4rem;
+            line-height: 2.2rem;
+        }
+    </style>
+
+    <nav>
+        <img src="./assets/logo.svg" alt="">
+        <a href="/" onclick="route()">Home</a>
+        <a href="/universe" onclick="route()">O Universo</a>
+        <a href="/exploration" onclick="route()">Exploração</a>
+    </nav>
+
+    <div id="app"></div>
+    
+    <script src="./js/index.js" type="module"></script>
+</body>
+</html>
