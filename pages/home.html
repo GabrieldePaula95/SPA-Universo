@@ -62,7 +62,13 @@
 <body> 
     <main>
         <h1>Explore o universo</h1>
-        <button onclick="route('/universe.html')">Quero saber mais</button>
+        <button onclick="navigateToUniverse()">Quero saber mais</button>
     </main>
+
+    <script>
+        function navigateToUniverse() {
+            window.location.href = 'universe.html';
+        }
+    </script>
 </body>
 </html>
